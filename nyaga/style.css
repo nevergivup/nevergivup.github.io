@@ -1,0 +1,77 @@
+
+
+header{
+	height: 150px;
+	background-color: #337AB7;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	
+
+}
+
+header h1{
+	padding-top: 50px;
+	font-size: 60px;
+	font-weight: bold;
+	font-family: Blackadder ITC;
+	color: white;
+	text-align: center;
+}
+
+
+nav ul li{
+	display: inline-block;
+	width: 25%;
+	border-right: 1px solid #ccc;
+	text-align: center;
+	font-weight: bold;
+}
+
+nav ul li:hover{
+	background: #ff9900;
+	color: white;
+	cursor: pointer;
+}
+nav ul li:hover a{
+	color: white;
+}
+nav ul li:last-child:hover{
+background: none;
+
+
+}
+nav ul li:last-child{
+	padding-top: 8px;
+	border-right: none;
+	padding-left: 10px;
+}
+
+.main{
+	min-height: 500px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.menue{
+	background-color: lightblue;
+	min-height: 500px;
+}
+
+.content {
+
+}
+
+footer{
+	margin-top: 15px;
+	background: #337AB7;
+	height: 50px;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+}
+.glyphicon-envelope ,.fa-facebook{
+font-size: 25px;
+margin-top: 15px;
+color: red;
+}
